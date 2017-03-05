@@ -19,16 +19,16 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "../node_modules/font-awesome/css/font-awesome.min.css",
-        "../node_modules/mdbootstrap/css/bootstrap.min.css",
-        "../node_modules/mdbootstrap/css/mdb.min.css",
-        "styles.scss"
+        "./vendor/font-awesome/scss/font-awesome.scss"
+        ,"./vendor/bootstrap/scss/bootstrap.scss"
+        ,"./vendor/mdbootstrap/sass/mdb.scss"
+        ,"styles.scss"
       ],
       "scripts": [
-        "../node_modules/mdbootstrap/js/jquery-2.2.3.min.js",
-        "../node_modules/mdbootstrap/js/tether.min.js",
-        "../node_modules/mdbootstrap/js/bootstrap.min.js",
-        "../node_modules/mdbootstrap/js/mdb.min.js"
+        "./vendor/mdbootstrap/js/jquery-2.2.3.min.js"
+        ,"./vendor/mdbootstrap/js/tether.min.js"
+        ,"./vendor/bootstrap/dist/js/bootstrap.min.js"
+        ,"./vendor/mdbootstrap/js/mdb.min.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {
