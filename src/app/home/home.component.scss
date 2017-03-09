@@ -1,0 +1,30 @@
+.page-body {
+    height: 600px;
+    border: 1px solid #68071E;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    //box-shadow: 10px 10px 74px 0px rgba(0,0,0,0.75);
+}
+
+.page-head {
+    background-color: #68071E;
+    border-top-left-radius: 6px;    
+    border-top-right-radius: 6px;
+}
+
+.page-head h2 {
+    margin: 0;
+    padding: 15px 15px 5px 15px;
+    color: #FFFFFF;
+}
+
+.page-head-abstract {
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0px 15px 15px 15px;
+}
+
+.page-content {
+    margin: 0;
+    padding: 15px;
+}
